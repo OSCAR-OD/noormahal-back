@@ -1,0 +1,93 @@
+1. err: sometimes 
+    const [userEmailsSelected, setUserEmailsSelected]= useState(note.emails) ashole note.user and id wise save howar kotha. sometimes bknd e short err dhore abar dhore na. but save hoi objectid.(so ignored)(CastError).
+    to correct this, code const updatedNote = await Note.findOneAndUpdate(
+    { _id: id },
+    { $addToSet: { user: user } },
+    { new: true }
+)
+(addToSet)Yes, note.user.addToSet(user) will work instead of $push in this case. The addToSet() method adds an element to an array only if it does not already exist in the array. So, if you want to add a new user to the note.user array without duplicating any existing user, you can use addToSet() method like this:
+//// 
+2 dark bg ok, but footer ektu niche always set thakle valo..(chk)(file 11)(gtchk) 
+3.  ok(12).
+4. (13) token model ok, forgotpass ok, ResetPass ok (tps: sendEmail uncomment and chk again.) (npm i crypto)(bknd: npm i mailgun-js, )
+5. all ok. (single user add/delete in/from team/note done) (sometimes error comes and sometimes not(in notes page.)its ok) (footer adjust). (img upload not done) editProfile is duplicate of editUserForm (manager can edit this)
+6. (15) full code,,, not deleted any part
+7. (16) smll img upload ok but not large image.
+8. npm i react-quill 
+9. (17) all teamPrev is deleted, dashapi is updated(but no work).
+10. (18) v good many changes
+11. (19) v good many changes(print ok)(notification check)
+12. (20) notification ta shobar jonno dakhacche(team e thakle o, ba na thakle o ).(profile thumb,notification dropdown ok )
+13. (21) v gdd
+14. (22) v gdd before EditTeam css
+15. (23) v gddd befor deploy 1 copy
+16. (24) v gddd befor deploy 1 copy
+npm i @fvilers/disable-react-devtools
+17. (25) all ok now new project(firebase)
+npm i react-toastify, sass, react-chartjs-2, react-star-rate, @stripe/react-stripe-js, @stripe/stripe-js, react-country-region-selector, @emailjs/browser, notiflix  
+18. (4)(ecom eshop jino)
+ecommerce-website-beige-chi.vercel.app
+19. (26) v gdd zino ecom
+ npm i react-stripe-checkout styled-components 
+in backend
+npm i joi stripe
+20. (27) (chaos caloris ok)
+21. (28) (ok) check security of checkout page
+22. (29) (ok but triying payment system) (bknd)
+23. (30)(For ibos)
+npm i react-dnd-html5-backend react-dnd
+24. (31)(again chk)(bkash start)(zino)
+npm  i sslCommerze
+25. (32) was trying bkash
+26. (33) (use it again) (sslCommerze)was trying bkash
+27. try only bkash (new) (postponed*)
+npm i node-global-storage, axios
+28. (34) tried sslCommerze. ok but after payment saving the data in fbase or mdb is not done.
+(install this again). next try frhad
+29. 
+npm i tailwindcss daisyui postcss sweetalert2 swiper react-hot-toast 
+npm i @smastrom/react-rating aos localforage match-sorter moment react-fast-marquee react-helmet-async react-hook-form react-icons react-query react-scroll-to-top react-select react-tabs recharts sort-by
+npm i mongodb
+30. (35) packup.ok but shop not set. try (34)
+npm uninstall autoprefixer daisyui postcss tailwindcss
+31. (36). was trying (34). save from backend in mdb or fbase? later try
+32. try frhad again (35).
+npm i -D autoprefixer daisyui postcss tailwindcss
+(ok) install done. sslCommerze ok. after payment confirm, it clears products from cart and enters data.(ok)  
+try vercel for backend up.
+33. (37). cyclic e running backend. frontend vercel running(custom domain add available.). socket.io removed from pkg.json. check route done?, configure fbase sslCommerze port mdb ? 
+https://long-plum-sundress.cyclic.cloud/
+https://shoppro-beta.vercel.app/
+https://ecommerce-website-beige-chi.vercel.app/
+(gdd)https://shoppro.onrender.com/
+34. (38) image updated. but trying (36) zinos website and addding payment and redirect to react.
+35. (39) payment add ok in mdb. but can it be added in fbase from backend ? it would be easier.(2 times fbase data inclued (in fntend and bkend.)) 
+npm i firebase (node)
+36. (40) fbase with sslCommerze done. host again later. now try thesis project.
+(done, but)(shows 2 err)(lockdown.js related). hope again install react would solve.
+37. (41) vvgd ecom. (design needs). chk my dashboard project. 
+38. (42) Booking website.( )
+npm i react-date-range, date-fns  
+
+{
+  "heading": "KHWABGAH (Penthouse) 3,600 SQ. FT.",
+  "subheading": "For a regal experience!",
+  "desc": "Khwabgah is a spacious royal chamber encompassing 2 bedrooms, a living room, a dining room, a separate bar, a private butler service and an office chamber with a private terrace. Arched stonework, rich...",
+  "image": [
+    {
+      "url": "https://res.cloudinary.com/dloaa5m7e/image/upload/v1695976536/noormahal/1_q9rr71.webp"
+    },
+    {
+      "url": "https://res.cloudinary.com/dloaa5m7e/image/upload/v1695976535/noormahal/2_bb9twn.webp"
+    },
+    {
+      "url": "https://res.cloudinary.com/dloaa5m7e/image/upload/v1695976535/noormahal/2_bb9twn.webp"
+    }
+  ]
+}
+
+
+
+
+
+
